@@ -429,6 +429,7 @@ img {
 
 .section_heading.text-left {
     text-align: left !important;
+
 }
 
 .studio-btn {
@@ -480,15 +481,18 @@ img {
 }
 
 .header-area .main-menu .nav-link {
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 0 25px;
+    padding: 0 20px;
+    font-weight: 550;
 }
 
 .header-area .main-menu .nav-link:hover,
 .header-area .main-menu .nav-link:focus {
-    color: #fff;
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
 }
 
 .dropdown-menu.show {
