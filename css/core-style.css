@@ -428,11 +428,22 @@ img {
     text-transform: uppercase;
 }
 
-.section_heading.text-left {
+.sectionbtn_heading.text-left {
     text-align: left !important;
 
 }
-
+.razorpay-payment-button
+{
+  display: inline-block;
+  color: #fff;
+  background-color: #1c811d;
+  height: 52px;
+  padding: 0 15px;
+  border-radius: 0;
+  line-height: 52px;
+  font-size: 16px;
+  min-width: 140px;
+}
 .studio-btn {
     display: inline-block;
     color: #fff;
@@ -444,7 +455,14 @@ img {
     font-size: 16px;
     min-width: 140px;
 }
-
+.razorpay-payment-button > img {
+    padding-right: 5px;
+}
+.razorpay-payment-button:hover,
+.razorpay-payment-button:focus {
+    color: #fff;
+    font-size: 16px;
+}
 .studio-btn > img {
     padding-right: 5px;
 }
